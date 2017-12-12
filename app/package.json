@@ -1,0 +1,18 @@
+{
+  "name": "7-days-calculator",
+  "productName": "7-days-calculator",
+  "version": "0.1.0",
+  "description": "An Electron application to calculate resource requirements for items in the game '7 Days to Die'",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Jake Mathews",
+    "email": "mathewsj2@wit.edu",
+    "url": "https://github.com/JakeMathews"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}
